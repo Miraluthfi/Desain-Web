@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ShortcutLink</title>
+    <h1 style="text-align: center"><u> Membuat ShortcutLink pada HTML </u></h1>
+    <h2><i> A. Pendahuluan : </i></h2>
+    Dengan adanya shortcut link, maka pengunjung web dapat membuka link meskipun tanpa menggunakan mouse. Untuk membuat shortcutlink caranya dengan menambahkan atribut accesskey="shortcut" pada < a href="url" >. Dengan catatan sebaiknya
+    hindari huruf shortcut yang sama dengan shortcut menu pada aplikasi browser.
+  </head>
+  <body>
+    <style>
+      .button {
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      body {
+        background-image: url(bgimg.jpg);
+        color: white;
+      }
+    </style>
+    <hr />
+    <h2><i> B. Script Code </i></h2>
+    <xmp>
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> ShortcutLink </title>
+</head>
+<body>
+	<a href="#hal1" accesskey="v"> Halaman 1 </a> (Alt+V, Ctr+V) <br />
+	<a href="#hal2" accesskey="v"> Halaman 2 </a> (Alt+W, Ctr+W) <br />
+	<a href="#hal3" accesskey="v"> Halaman 3 </a> (Alt+X, Ctr+X) <br />	
+</body>
+</html>
+	</xmp>
+    <hr />
+    <h2><i> C. Hasil Preview </i></h2>
+    <a href="#hal1" accesskey="v"> Halaman 1 </a> (Alt+V, Ctr+V) <br />
+    <a href="#hal2" accesskey="v"> Halaman 2 </a> (Alt+W, Ctr+W) <br />
+    <a href="#hal3" accesskey="v"> Halaman 3 </a> (Alt+X, Ctr+X) <br />
+    <br />
+    <hr />
+    <h2><i> D. Kesimpulan : </i></h2>
+    Dari Script dan hasil di atas dapat diketahui bahwa pengunjung web dapat membuka link tanpa menggunakan mouse. Konsep ini mengadopsi shortcut menu pada aplikasi berbasis GUI.
+    <br />
+    <br />
+    <h4 style="text-align: right">
+      <a href="index.html"><button class="button button4">back</button></a>
+    </h4>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title>Mengupload File</title>
+    <h1 style="text-align: center"><u> Cara Mengupload File pada HTML </u></h1>
+    <h2><i> A. Pendahuluan : </i></h2>
+    Form dalam desain web merupakan hal vital yang mutlak harus ada untuk membuat keinteraktifan dengan pengunjung. Berikut salah satu komponen pada form ialah File Field, komponen file field sering digunakan untuk keperluan upload file ke
+    server. Secara sekilas, penampilan komponen ini seperti text box namun terdapat tombol untuk melakukan browser file yang akan dipilih. Untuk membuat komponen ini, dengan memberikan tag < input type="file" name="nama komponen" />. Selain
+    itu tambahkan atribut enctype="multipart/form-data" pada tag < form method="post" action="action.script" >.
+  </head>
+  <body>
+    <style>
+      .button {
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      body {
+        background-image: url(bgimg.jpg);
+        color: white;
+      }
+    </style>
+    <hr />
+    <h2><i> B. Script Code </i></h2>
+    <xmp>
+	<!DOCTYPE>
+<html>
+<head>
+	<title> Mengupload File </title>
+	<h1 style ="text-align:center;"><u> Cara Mengupload File pada HTML </u></h1>
+</head>
+<body>
+	<h1> Upload File </h1>
+		<form action="" method="post" enctype="multipart/form-data">
+			<input type="file" name="fileku" />
+			<input type="submit" name="submit" value="Kirim Data" />
+		</form>
+</body>
+</html>
+</xmp>
+    <hr />
+    <h2><i> C. Hasil Preview </i></h2>
+    <h1>Upload File</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+      <input type="file" name="fileku" />
+      <input type="submit" name="submit" value="Kirim Data" />
+    </form>
+    <hr />
+    <h2><i> D. Kesimpulan : </i></h2>
+    Dari Script dan hasil di atas dapat diketahui bahwa terdapat tampilan tombol untuk melakukan browse file yang akan dipilih kemudian muncul file folder tersebut.
+    <br />
+    <br />
+    <h4 style="text-align: right">
+      <a href="index.html"><button class="button button4">back</button></a>
+    </h4>
+  </body>
+</html>
